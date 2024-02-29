@@ -1,3 +1,4 @@
+import uniqid from 'uniqid';
 import { FaGithub } from 'react-icons/fa';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import OutsideLink from '../components/OutsideLink';
@@ -10,7 +11,7 @@ function Projects() {
       <ul className=" grid grid-cols-3 m-10 h-full gap-5">
         {projects.map(pro => (
           <li
-            key={pro.id}
+            key={uniqid()}
             className="block text-center h-fit p-4 bg-[#0a0416] rounded-xl"
           >
             {pro.screenShot ? <img src={pro.screenShot} /> : ''}
