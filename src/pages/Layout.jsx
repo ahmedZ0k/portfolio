@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { Outlet } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -12,6 +13,7 @@ function Layout() {
       <Header />
       <Outlet />
       <Footer />
+      <Analytics />
     </div>
   );
 }
