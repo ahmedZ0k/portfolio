@@ -7,8 +7,8 @@ import OutsideLink from './OutsideLink';
 function Footer() {
   return (
     <footer className="flex justify-between items-center py-2 px-8 h-[70px] bg-[#0a0416]  bottom-0  relative">
-      <p> Developed by Ahmed Zakaria </p>
-      <p>Copyright © 2024 AZ</p>
+      <p className=" text-xs lg:text-base"> Developed by Ahmed Zakaria </p>
+      <p className="hidden lg:block">Copyright © 2024 AZ</p>
       <ul className="flex items-center gap-4">
         <li>
           <OutsideLink to="https://www.linkedin.com/in/ahmed-mohamed-zakaria/">

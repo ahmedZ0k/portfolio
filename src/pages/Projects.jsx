@@ -6,8 +6,8 @@ import { projects } from '../../data/projects';
 function Projects() {
   return (
     <section>
-      <h1 className="text-6xl pb-3 text-center">Projects</h1>
-      <ul className=" grid grid-cols-3 m-10 h-full gap-5">
+      <h1 className="text-3xl lg:text-6xl py-3 text-center">Projects</h1>
+      <ul className=" grid grid-cols-1 lg:grid-cols-3 m-10 h-full gap-5">
         {projects.map(pro => (
           <li
             key={pro.id}
