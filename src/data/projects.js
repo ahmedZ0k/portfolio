@@ -1,6 +1,6 @@
-import Ecomerce from '../src/assets/e-commerce-screenshot.png';
-import Pizza from '../src/assets/react-pizza-screenshot.png';
-import Watch from '../src/assets/watch-movie-screenshot.png';
+import Ecomerce from '../assets/e-commerce-screenshot.png';
+import Pizza from '../assets/react-pizza-screenshot.png';
+import Watch from '../assets/watch-movie-screenshot.png';
 import Udd from '../assets/Udd.png';
 
 const projects = [
